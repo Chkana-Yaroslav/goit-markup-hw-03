@@ -198,6 +198,9 @@ a {
     letter-spacing: 0.02em;
 }
 
+.portfolio-item-container {
+    text-align: center;
+}
 
 .visually-hidden {
     position: absolute;
