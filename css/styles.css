@@ -54,7 +54,7 @@ ul {
    }
 
 .link {
-    adding: 24px 0;
+    padding: 24px 0;
 }
 
 .header-logo-navigation {
@@ -258,9 +258,9 @@ padding: 120px 0;
 }
 
 .team-list {
-display: flex;
-gap: 24px;
-width: calc((100%-72)/4);
+    display: flex;
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .team-item-container {
@@ -284,7 +284,7 @@ width: calc((100%-72)/4);
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: calc((100%-48)/3);
+    width: calc((100% - 48px) / 3);
 }
 
 
