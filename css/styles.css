@@ -33,22 +33,24 @@ ul {
 }
 
 .container {
-    max-width: 1158px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25,5px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .navigation {
     display: flex;
-        gap: 40px;
+        column-gap: 40px;
 }
 
 .header-logo-navigation {
@@ -63,7 +65,8 @@ ul {
 
 .main-section {
      background-color: #2E2F42;
-}
+     text-align: center;
+     }
 
 .main-title {
         color: #FFFFFF;
@@ -73,9 +76,10 @@ ul {
         letter-spacing: 0.02em;
         text-align: center;
         width: 496px;
-        padding-bottom: 48px;
+        height: 120px;
+        
 }
-
+        
 a {
     text-decoration: none;
     color: #2E2F42;
@@ -106,7 +110,8 @@ a {
 .address-list {
     font-style: normal;
     display: flex;
-        gap: 332px;
+    /*column-gap: 332px;*/
+    margin-left: auto;
 }
 
 .address {
@@ -131,7 +136,15 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    width: 169px;
+    height: 56px;
+    margin-top: 48px;
 }
+
+.main-section .container {
+    padding: 188px 472px;
+}
+
  .button:hover, .button:focus {
     background-color: #404BBF;
     color: #FFFFFF;
@@ -167,9 +180,35 @@ a {
     letter-spacing: 0.02em;
 }
 
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.features {
+    padding: 120px;
+}
+
 .features-list {
     display: flex;
-        gap: 24px;
+    column-gap: 24px;
+}
+
+.featers-item {
+   width: calc((100%-48)/4);
+}
+
+.team .container {
+    padding: 120px 156px;
 }
 
 .team h3 {
@@ -183,8 +222,11 @@ a {
 background-color: #F4F4FD;
 }
 
-.item {
+.team-item {
     background-color: #FFFFFF;
+    width: calc((100%-72)/4);
+    margin-top: 72px;
+    text-align: center;
 }
 
 .team-list {
@@ -192,20 +234,30 @@ display: flex;
     gap: 24px;
 }
 
+.portfolio .container {
+    padding: 120px 156px;
 }
 
 .portfolio {
     background-color: #F4F4FD;
 }
 
+
+
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-        gap: 24px;
+    gap: 24px;
+    margin-top: 72px;
+}
+
+.portfolio-item {
+    width: calc((100%-48)/3);
 }
 
 footer .logo {
     color:#4d5ae5;
+    margin-bottom: 17px;
 }
 
 footer .maintext, footer .span-studio {
@@ -214,4 +266,13 @@ footer .maintext, footer .span-studio {
 
 .footer {
     background-color: #2E2F42;
+}
+
+.footer .container {
+    padding-top: 101,5px;
+    padding-top: 100px;
+}
+
+footer .maintext {
+    width: 264px;
 }
