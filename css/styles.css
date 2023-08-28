@@ -60,9 +60,7 @@ ul {
 .header-logo-navigation {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    
+     
 }
 
 .header .container {
@@ -85,6 +83,8 @@ ul {
         width: 496px;
         height: 120px;
         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
         
 }
         
@@ -155,6 +155,8 @@ a {
     border: none;
     border-radius: 4px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-section {
@@ -182,7 +184,6 @@ a {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     margin-bottom: 8px;
 }
 
@@ -200,9 +201,6 @@ a {
     letter-spacing: 0.02em;
 }
 
-.portfolio-item-container {
-    text-align: center;
-}
 
 .visually-hidden {
     position: absolute;
@@ -232,15 +230,12 @@ a {
 
 .title-two visually-hidden {
     margin-bottom: 8px;
+    text-align: left;
 }
 
 
 .team .title-two  {
     margin-bottom: 72px;
-}
-
-.team .container {
-    padding: 120px 156px;
 }
 
 .team h3 {
@@ -276,7 +271,6 @@ padding: 120px 0;
 .portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
-    background-color: #F4F4FD;
 }
 
 
